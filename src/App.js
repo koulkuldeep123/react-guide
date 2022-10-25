@@ -1,5 +1,5 @@
 import './App.css';
-import Expenses from './components/Expenses';
+import Expenses from './components/Expenses/Expenses';
 
 const expenses = [
   {
@@ -23,13 +23,13 @@ const expenses = [
   },
 ];
 
-function App() {
+const App = () => {
   return (
     <div >
       <h2>Learn React</h2>
       <Expenses expenses={expenses}/>
     </div>
   );
-}
+};
 
 export default App;
