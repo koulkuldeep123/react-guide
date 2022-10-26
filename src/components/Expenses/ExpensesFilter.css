@@ -1,6 +1,7 @@
 .expenses-filter {
-  color: white;
-  padding: 0 1rem;
+  color: white; 
+  margin: 0 auto;
+  max-width: 95%;
 }
 
 .expenses-filter__control {
